@@ -1,10 +1,11 @@
 {
   "name": "3cx-sms-vi-connector",
   "version": "1.0.0",
-  "description": "Translation middleware between 3CX Generic SMS and VoIP Innovations APIdaze SMS API",
+  "description": "Translation middleware between 3CX Generic SMS and the VoIP Innovations SOAP SMS API (SendSMSWithDLR, with delivery receipts)",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node --env-file=.env index.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
